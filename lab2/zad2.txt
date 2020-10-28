@@ -1,0 +1,26 @@
+
+
+wojtek@wojtek-VirtualBox:~/SCR/lab2$ bash
+wojtek@wojtek-VirtualBox:~/SCR/lab2$ ps f
+    PID TTY      STAT   TIME COMMAND
+   2853 pts/0    Ss     0:00 bash
+   2859 pts/0    S      0:00  \_ bash
+   2875 pts/0    S      0:00      \_ bash
+   2881 pts/0    R+     0:00          \_ ps f
+    790 tty2     Ssl+   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_
+    794 tty2     Sl+    0:39  \_ /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/
+    922 tty2     Sl+    0:00  \_ /usr/libexec/gnome-session-binary --systemd --s
+wojtek@wojtek-VirtualBox:~/SCR/lab2$ kill -9 2859
+wojtek@wojtek-VirtualBox:~/SCR/lab2$ Unicestwiony
+wojtek@wojtek-VirtualBox:~/SCR/lab2$ ps f
+    PID TTY      STAT   TIME COMMAND
+   2853 pts/0    Ss     0:00 bash
+   2901 pts/0    R+     0:00  \_ ps f
+   2875 pts/0    S      0:00 bash
+    790 tty2     Ssl+   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_
+    794 tty2     Sl+    0:39  \_ /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/
+    922 tty2     Sl+    0:00  \_ /usr/libexec/gnome-session-binary --systemd --s
+
+
+
+sprawdzając komendą ps axjf widzimy że proces został przejęty przez rodzica

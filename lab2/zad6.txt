@@ -1,0 +1,10 @@
+Skrypt użyty w zadaniu
+
+#!/bin/bash
+for (( i = 0; ; ++i)) 
+do
+	echo "Cykl $i"
+	sleep 1
+done
+
+Przy użyciu komendy kill -19 bądź przycisków ctrl+z stopujemy program, a przy użyciu sigcont lub kill -18 przywracamy go do działania.

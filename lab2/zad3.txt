@@ -1,0 +1,10 @@
+Skrypt
+
+#!/bin/bash
+for (( i = 0; ; ++i)) 
+do
+	echo "Cykl $i"
+	sleep 1
+done
+
+Wszystkie te procesy są dziećmi basha. 
