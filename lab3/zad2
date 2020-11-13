@@ -1,0 +1,6 @@
+Program użyty w zadaniu to Zad2.c
+
+a) Program wyświetla komunikat i kończy się jego działanie
+b) Program wyświetla komunikat i wraca do jego wykonywania
+c) Program wstrzymuje swoje działanie na zadany czas i wznawia
+d) Program całkowicie ignoruje sygnał
