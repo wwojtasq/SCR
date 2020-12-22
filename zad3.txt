@@ -1,0 +1,2 @@
+Większa liczba argumentów jest przekazywana między programami za pomocą struct, a pojedyńczy jako zmienna
+Zad3.c jest poprawioną wersją programu bug3.c który kompilował się, lecz miał błędy w działaniu
