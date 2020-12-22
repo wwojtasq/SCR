@@ -1,0 +1,1 @@
+wyjścia nie wyświetlają się w tej samej kolejności, ponieważ wszystkie wątki nie mogą być wykonywane jednocześnie z powodu limitu liczby rdzeni.
